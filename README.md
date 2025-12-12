@@ -80,13 +80,16 @@ Then run the UI test:
 
 ## Example Scenario
 
-```Input Zones (from Python logic):
+```
+Input Zones (from Python logic):
 sample_zones = [
     ZoneLoad("Zone A", 120.0),
     ZoneLoad("Zone B", 80.0),
     ZoneLoad("Zone C", 95.0),
     ZoneLoad("Zone D", 40.0)
-]```
+]
+````
+
 
 **Corresponding Dashboard Output:**
 
