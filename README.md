@@ -55,7 +55,7 @@ This calculates load balancing diagnostics:
 **python load_balancer.py** 
 
 
-# Sample Output:
+## Sample Output:
 
 Zone Loads:
   - Zone A: 120.0 kW
@@ -96,6 +96,9 @@ Zone B: 80.0 kW – OK (green)
 
 ## Author
 **Syed Nafiz Imtiaz**
-BSc. in Electrical and Electronics Engineering
-MASc. in Energy Systems Engineering
+
+*BSc. in Electrical and Electronics Engineering*
+
+*MASc. in Energy Systems Engineering*
+
 Software Support Engineer | EIT Applicant | [LinkedIn](https://www.linkedin.com/in/syed-nafiz/)
