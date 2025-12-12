@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Load Balancer Dashboard</title>
+    <style>
+        .zone {
+            margin: 10px 0;
+        }
+        .status.ok { color: green; }
+        .status.overload { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Load Balancer Dashboard</h1>
+
+    <div id="zone-A" class="zone">
+        <span class="label">Zone A:</span>
+        <span class="load">120.0</span> kW
+        <span class="status overload">OVERLOAD</span>
+    </div>
+
+    <div id="zone-B" class="zone">
+        <span class="label">Zone B:</span>
+        <span class="load">80.0</span> kW
+        <span class="status ok">OK</span>
+    </div>
+
+    <div id="zone-C" class="zone">
+        <span class="label">Zone C:</span>
+        <span class="load">95.0</span> kW
+        <span class="status overload">OVERLOAD</span>
+    </div>
+
+    <div id="zone-D" class="zone">
+        <span class="label">Zone D:</span>
+        <span class="load">40.0</span> kW
+        <span class="status ok">OK</span>
+    </div>
+</body>
+</html>
